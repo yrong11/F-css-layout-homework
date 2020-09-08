@@ -1,6 +1,6 @@
-# static-page-scaffold
+# CSS Layout Homework
 
-Static page with dev server for GTB project
+Static page with dev server for GTB Advanced CSS and CSS Flexbox
 
 ## Install dependencies
 
