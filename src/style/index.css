@@ -24,12 +24,87 @@ ul {
   color: white;
   height: 50px;
 }
+
 .header-nav {
   height: inherit;
 }
+
 .header-nav ul {
   align-items: center;
   height: inherit;
   display: flex;
   justify-content: space-evenly;
+}
+
+.content{
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.left{
+  width: 30%;
+  margin: 10px 20px;
+}
+
+.about{
+  background-color: #f5f5f5;
+  padding: 10%;
+}
+
+.archives {
+  padding: 10%;
+}
+.archives a{
+  text-decoration: underline;
+}
+
+.center {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  width: 150%;
+}
+
+
+.center-fig{
+  border:1px solid;
+  border-color: lavender;
+  margin: 10px;
+  width: calc(50% - 20px);
+}
+.center-fig-desc{
+  padding:10px
+}
+
+
+.center-img {
+  width: 100%;
+}
+.right {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  padding: 15px;
+}
+
+.email, .password, .sign-in-btn{
+  width: 100%;
+  height: 40px;
+}
+
+.right form {
+  background-color:#f5f5f5;
+  padding: 15px;
+}
+
+.sign-in-btn {
+  background-color: #007bff;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  margin-top: 10px;
+}
+
+#remember-me {
+  margin: 10px 0;
 }
