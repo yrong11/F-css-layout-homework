@@ -65,17 +65,21 @@ ul {
   width: 150%;
 }
 
-
 .center-fig{
   border:1px solid;
   border-color: lavender;
   margin: 10px;
   width: calc(50% - 20px);
 }
+
 .center-fig-desc{
   padding:10px
 }
 
+.center-fig-desc a {
+  text-decoration: none;
+  color: #007bff;
+}
 
 .center-img {
   width: 100%;
@@ -106,5 +110,18 @@ ul {
 }
 
 #remember-me {
-  margin: 10px 0;
+  margin: 8%;
+}
+
+.footer{
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+
+  background-color: #f5f5f5;
+}
+
+.footer-content {
+  margin: auto;
+  width: 28%;
 }
