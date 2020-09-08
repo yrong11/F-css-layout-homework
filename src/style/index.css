@@ -59,11 +59,13 @@ ul {
 }
 
 .center {
-  display: flex;
-  flex-flow: row wrap;
-  align-content: space-between;
+  display: flex; 
+  flex-flow: column wrap; 
   width: 150%;
+  height: 1050px;
 }
+.center-fig:nth-child(2n+1) { order: 1; }
+.center-fig:nth-child(2n) { order: 2; }
 
 .center-fig{
   border:1px solid;
