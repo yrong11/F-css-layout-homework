@@ -18,3 +18,18 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.header {
+  background-color: #262626;
+  color: white;
+  height: 50px;
+}
+.header-nav {
+  height: inherit;
+}
+.header-nav ul {
+  align-items: center;
+  height: inherit;
+  display: flex;
+  justify-content: space-evenly;
+}
